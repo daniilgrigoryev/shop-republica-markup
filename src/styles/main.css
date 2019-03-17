@@ -1,0 +1,310 @@
+/* normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%
+}
+
+body {
+  margin: 0
+}
+
+main {
+  display: block
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+a {
+  background-color: transparent
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted
+}
+
+b,
+strong {
+  font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em
+}
+
+small {
+  font-size: 80%
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline
+}
+
+sub {
+  bottom: -.25em
+}
+
+sup {
+  top: -.5em
+}
+
+img {
+  border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0
+}
+
+button,
+input {
+  overflow: visible
+}
+
+button,
+select {
+  text-transform: none
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0
+}
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText
+}
+
+fieldset {
+  padding: .35em .75em .625em
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal
+}
+
+progress {
+  vertical-align: baseline
+}
+
+textarea {
+  overflow: auto
+}
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto
+}
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px
+}
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit
+}
+
+details {
+  display: block
+}
+
+summary {
+  display: list-item
+}
+
+template {
+  display: none
+}
+
+[hidden] {
+  display: none
+}
+
+
+
+
+
+
+/* common.css */
+* {
+  /* font-family: 'Open Sans', sans-serif; */
+  /* font-family: 'Roboto', sans-serif; */
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.small-text-14{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #a0a4a5; 
+}
+h5{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 21px;
+  line-height: 20px;
+  
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  color: #a0a4a5;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+
+.footer {
+  background-color: #1e1c1c;
+}
+.footer__top{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer__grid {
+  display: grid;
+  grid-template-columns: 190px  134px 90px 124px 375px;
+
+  justify-content: space-between;
+}
+
+.footer__column {
+}
+  ul.footer__list{
+    list-style: none;
+    margin-top: 17px;
+    padding: 0;
+  }
+  .footer__list li{}
+  .footer__list li a{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+  }
+  .footer__list li a:hover{
+    text-decoration: underline;
+  }
+.footer__mailing{
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+}
+  .footer__input{
+    font-family: 'HelveticaNeueCyr';
+    box-shadow: 0 1px 4px 0 rgba(24, 23, 23, 0.08);
+    background-color: #fff;
+    border: 0;
+    width: 228px;
+    color: #a0a4a5;
+    padding-left: 12px;
+  }
+  .footer__button{
+    width: 139px;
+    height: 36px;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin: 0;
+    margin-left: 8px;
+    width: auto;
+    overflow: visible;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    -webkit-appearance: none;
+    opacity: 0.9;
+  }
+  .footer__button:hover{
+    opacity: 1;
+  }
+
+
+.footer__social{
+  display: flex;
+  justify-content: start;
+}
+.footer__social_item{
+  height: 40px;
+  width: 40px;
+  background: red;
+  border-radius: 100%;
+  margin-top: 24px;
+}
+.footer__social_item:not(:nth-child(1)){
+  margin-left: 24px;
+}
