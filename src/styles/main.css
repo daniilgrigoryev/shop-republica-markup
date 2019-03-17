@@ -196,7 +196,16 @@ template {
   padding-right: 15px;
   padding-left: 15px;
 }
-
+.small-text-11{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 11px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.45;
+  letter-spacing: normal;
+  color: #a0a4a5;
+}
 .small-text-14{
   font-family: 'HelveticaNeueCyr';
   font-size: 14px;
@@ -272,13 +281,14 @@ h5{
     padding-left: 12px;
   }
   .footer__button{
-    width: 139px;
     height: 36px;
     color: #fff;
     background-color: transparent;
     border: 2px solid #fff;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     cursor: pointer;
     margin: 0;
     margin-left: 8px;
@@ -292,8 +302,6 @@ h5{
   .footer__button:hover{
     opacity: 1;
   }
-
-
 .footer__social{
   display: flex;
   justify-content: start;
@@ -304,7 +312,50 @@ h5{
   background: red;
   border-radius: 100%;
   margin-top: 24px;
+  cursor: pointer;
 }
 .footer__social_item:not(:nth-child(1)){
   margin-left: 24px;
 }
+
+
+.footer__bottom{
+  padding-bottom: 32px;
+}
+  .footer__partners{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  .footer__partners-item{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: red;
+  }
+
+  .footer__partners-item--sber{
+    width: 112px;
+    height: 20px;
+  }
+  .footer__partners-item--mnogo{
+    widows: 83px;
+    height: 14px;
+  }
+  .footer__partners-item--visa{
+    width: 46px;
+    height: 14px;
+  }
+  .footer__partners-item--maestro{
+    width: 39px;
+    height: 24px;
+  }
+  .footer__partners-item--mastercard{
+    width: 40px;
+    height: 24px;
+  }
+
+  .footer__copyright-description{
+    text-align: center;
+    opacity: 0.7;
+  }
