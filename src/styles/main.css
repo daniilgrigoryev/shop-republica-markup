@@ -360,7 +360,7 @@ ul.header__top__list{
   width: 161px;
   height: 21px;
 
-  background: red;
+  background: gray;
 }
 .header__search{
   width: 720px;
@@ -374,7 +374,7 @@ ul.header__top__list{
   width: 20px;
   top: 12px;
   height: 20px;
-  background-color: red;
+  background-color: gray;
   border-radius: 100%;
 }
   .search_input{
@@ -411,7 +411,7 @@ ul.header__top__list{
 .header__cards__items{
   width: 28px;
   height: 28px;
-  background-color: red;
+  background-color: gray;
   border-radius: 100%;
 }
 .header__cards__items:not(:nth-child(1)){
@@ -704,8 +704,15 @@ ul.rating-stars__ul li a{
     opacity: 0.3;
   }
 
-
-
+.product__tabs__delivery{
+  
+}
+.product__delivery{
+  justify-content: space-between;
+  width: 100%;
+  align-content: flex-start;
+  align-items: center;
+}
 .product__tabs{}
 .product__tabs ul{
   list-style: none;
@@ -843,7 +850,7 @@ ul.rating-stars__ul li a{
 .footer__social_item{
   height: 40px;
   width: 40px;
-  background: red;
+  background: gray;
   border-radius: 100%;
   margin-top: 24px;
   cursor: pointer;
@@ -865,7 +872,7 @@ ul.rating-stars__ul li a{
   .footer__partners-item{
     margin-left: 10px;
     margin-right: 10px;
-    background-color: red;
+    background-color: gray;
   }
 
   .footer__partners-item--sber{
