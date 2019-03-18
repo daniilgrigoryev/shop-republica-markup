@@ -266,6 +266,22 @@ h4{
   padding-top: 20px;
   padding-bottom: 20px;
 }
+.small-link{
+  font-family: 'HelveticaNeueCyr';
+  color: #42cee2;
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: #42cee2;
+  text-decoration: none;
+}
+.small-link:hover{
+  text-decoration: underline;
+}
+
 
 p{
   font-family: 'HelveticaNeueCyr';
@@ -472,12 +488,12 @@ ul.breadcrumbs__crumbs{
 }
 
 .product__col--view{
-  background: red;
   width: 650px;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
+
 .product__col--actions{
-  background: green;
+  outline: 1px solid #000;
   width: 344px;
   margin-right: 60px;
 }
@@ -485,9 +501,100 @@ ul.breadcrumbs__crumbs{
 .product__title{
   color: rgba(0, 0, 0, 0.9);
 }
+.product__title_sub{
+  justify-content: space-between;
+}
+.product__name{
+  color: #42cee2;
+}
+
+
+.product__gallery{
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 73px;
+  margin-top: 27px;
+}
+.product__photos--min{
+  width: 70px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.product__photos--min li{
+  display: block;
+}
+
+  .product__photo--min{
+    width: 68px;
+    height: 68px;
+    background: #000;
+    opacity: 0.3;
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 1px solid transparent;
+  }
+  .product__photo--min:nth-child(1){
+    margin-top: 0;
+  }
+  .product__photo--min:hover{
+    border: 1px solid #42cee2;
+  }
+  .product__photo--min--active{
+    border: 1px solid #42cee2;
+  }
+.product__photos--full{
+  margin: auto;
+}
+  .producnt__photo--full{
+    width: 380px;
+    height: 394px;
+    background: #000;
+    opacity: 0.3;
+  }
+
+
+
+.product__tabs{}
+.product__tabs ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid #d6d6d6;
+  align-items: center;
+  justify-content: space-between;
+}
+.product__tabs ul li{}
+.product__tabs ul li a{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  color: rgba(0, 0, 0, 0.9);
+  padding-bottom: 16px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  transition: 240ms border ease;
+}
+.product__tabs ul li a:hover{
+  border-bottom: 3px solid #000;
+}
+
 .product__description{
   color: rgba(0, 0, 0, 0.9);
 }
+
+
+
+
+
+
+
 .share_links{}
 
 .share_links__section{
