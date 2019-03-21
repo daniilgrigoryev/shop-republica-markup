@@ -496,10 +496,57 @@ ul.breadcrumbs__crumbs{
   width: 344px;
   margin-right: 60px;
 }
+.product__col--actions .product__delivery a:hover{
+  border-bottom: 3px solid transparent;
+}
+.delivery__places ul{
+  padding-left: 0;
+}
+.delivery__place-item{
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 15px 0;
+}
+.delivery__place-description{
+  width: 217px;
+}
+.delivery__place-title{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+.delivery__place-info{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  color: #a0a4a5;
+  margin: 3px 0;
+}
+.delivery__place-price{
+  font-family: 'HelveticaNeueCyr';
+  font-size: 13px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.23;
+  letter-spacing: normal;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 .rating-stars{
   align-content: center;
   align-items: center;
-
 }
 .rating-stars__title{
   color: rgba(0, 0, 0, 0.6);
