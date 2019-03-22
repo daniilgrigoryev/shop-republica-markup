@@ -491,6 +491,7 @@ ul.breadcrumbs__crumbs{
   justify-content: space-between;
   align-items: flex-start;
 }
+
 .product__col{
   min-height: 500px;
 }
