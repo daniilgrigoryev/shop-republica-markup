@@ -499,6 +499,7 @@ ul.breadcrumbs__crumbs{
 .product__col--actions .product__delivery a:hover{
   border-bottom: 3px solid transparent;
 }
+
 .delivery__places ul{
   padding-left: 0;
 }
